@@ -5,7 +5,7 @@
     ["module-resolver", {
       "root": ["./server/lib"],
       "alias": {
-        "@root": "./",
+        "@project": "./",
         "@express": "./server/lib/express",
         "@utils": "./server/lib/utils"
       }

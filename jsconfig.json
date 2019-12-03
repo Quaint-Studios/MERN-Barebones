@@ -6,6 +6,7 @@
     "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
+      "@project/*": ["./*"],
       "@client/*": ["src/*"],
       "@express/*": ["server/lib/express/*"],
       "@utils/*": ["server/lib/utils/*"]
