@@ -3,7 +3,7 @@ import connectMongo from 'connect-mongo';
 import mongoose from 'mongoose';
 import './schemas/SchemaConfigs';
 import app from '@express/express.main';
-import { debug } from '../../utils/Essentials';
+import { debug } from '@utils/Essentials';
 
 // Tells us when events have happened (create, touch, update, set, destroy).
 const MongoStore = connectMongo(session);
