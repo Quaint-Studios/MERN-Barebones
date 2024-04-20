@@ -1,4 +1,4 @@
-var mongoose = require('mongoose');
+let mongoose = require('mongoose');
 
 export function findOneOrCreate(schema, options) {
   schema.static('findOneOrCreate', async function fn(condition, doc) {
