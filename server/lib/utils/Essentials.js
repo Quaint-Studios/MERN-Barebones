@@ -20,8 +20,5 @@ export function timestamp(data) {
  * Or not to be? This verifies that the variable exists.
  */
 export function toBe(variable) {
-  if (typeof variable === 'undefined' || variable == null) {
-    return false;
-  }
-  return true;
+  return !(typeof variable === 'undefined' || variable == null);
 }
